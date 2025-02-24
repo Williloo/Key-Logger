@@ -1,7 +1,7 @@
-import socket 
+import socket
 import time
 
-HOST = '' 
+HOST = '' 	## Leave Blank
 PORT = 65535
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
